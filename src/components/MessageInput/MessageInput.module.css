@@ -1,0 +1,35 @@
+.form {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.message_input {
+  width: 400px;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  text-align: start;
+  vertical-align: top;
+  resize: none;
+}
+
+.send_button {
+  border: none;
+  background-color: inherit;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.message_input:focus {
+  outline: 2px solid rgba(238, 96, 214, 0.3);
+}

@@ -1,0 +1,32 @@
+.wrapper {
+  margin-top: 20px;
+  width: 800px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  box-shadow: rgba(3, 3, 3, 0.2) 0px 8px 24px;
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.wrapper:first-child {
+  margin-top: 0;
+}
+
+.user {
+  font-weight: bold;
+}
+
+.message {
+  margin-top: 10px;
+  word-break: break-all;
+}
+
+/* Media Queries */
+
+@media (max-width: 895px) {
+  .wrapper {
+    width: 100%;
+  }
+}
