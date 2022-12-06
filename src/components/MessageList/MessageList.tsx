@@ -11,7 +11,7 @@ export const MessageList = ({ messages }: MessageListProps) => {
     <div className={styles.list}>
       {messages.map((message) => (
         <Message key={message.id} message={message} />
-      ))}
+      )).reverse()}
     </div>
   );
 };
